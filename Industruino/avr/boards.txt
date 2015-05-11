@@ -1,0 +1,34 @@
+##############################################################
+
+ind1286.name=Industruino 1286
+
+ind1286.bootloader.low_fuses=0x7f
+ind1286.bootloader.high_fuses=0x9a
+ind1286.bootloader.extended_fuses=0xfb
+ind1286.bootloader.path=ind1286
+#ind1286.bootloader.path=caterina
+ind1286.bootloader.file=Bootloader.hex
+ind1286.bootloader.unlock_bits=0x3F
+ind1286.bootloader.lock_bits=0x2F
+
+ind1286.build.mcu=at90usb1286
+ind1286.build.f_cpu=16000000L
+ind1286.build.core=Industruino
+ind1286.build.variant=ind1286
+ind1286.build.vid=0x16D0
+ind1286.build.pid=0x0856
+ind1286.build.usb_product="Industruino"
+ind1286.build.usb_manufacturer="Industruino 1286"
+ind1286.build.extra_flags={build.usb_flags}
+
+ind1286.upload.tool=arduino:avrdude
+ind1286.upload.protocol=avr109
+ind1286.upload.maximum_size=126976
+ind1286.upload.speed=57600
+ind1286.upload.disable_flushing=true
+ind1286.upload.use_1200bps_touch=true
+ind1286.upload.wait_for_upload_port=true
+
+ind1286.vid.0=0x16D0
+ind1286.pid.0=0x0856
+##############################################################

@@ -1,0 +1,6 @@
+ This directory contains the files required during installation to support
+MattairTech MT-DB-U1, MT-DB-U2, MT-DB-U4, and MT-DB-U6 boards. See INSTALL in root directory.
+
+avrdude.conf		replaces the avrdude.conf included with WinAVR, needed for U2
+Industruino_CDC.inf	CDC driver (COM port) for MattairTech USB boards
+power.h			replaces the power.h included with WinAVR, needed for U2
